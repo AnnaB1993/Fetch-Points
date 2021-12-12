@@ -1,6 +1,6 @@
 const { Client } = require("pg");
 
-const DB_NAME = "fetch_rewards";
+const DB_NAME = "fetch-rewards";
 const DB_URL = `postgres://localhost:5432/${DB_NAME}`;
 
 const client = new Client(DB_URL);
